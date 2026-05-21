@@ -7,6 +7,7 @@ Reglerna som styrde produktionen av rapporten. Bevarade här så att kommande ve
 - Single-file HTML med inbäddad CSS. Ingen build-process.
 - Matcha kundens brand. Kolla deras hemsida för färger, typografi och känsla.
 - Cyntoras logotyp (SVG inline) i nav och hero. Hämtad från cyntora.se.
+- **Favikon krävs.** Lägg `favicon.svg` (Cyntoras C-mark) bredvid `index.html` och länka i `<head>` via `<link rel="icon" type="image/svg+xml" href="favicon.svg">`. Skapas genom att ta de två första path-elementen från Cyntora-loggans SVG och sätta `viewBox="0 0 71 71"`.
 - Cormorant Garamond för rubriker, Inter för brödtext.
 - Scroll-deck-format. Varje sektion fyller sin egen vy.
 - 16:9 PDF (1600x900) som backup utöver HTML.
@@ -56,6 +57,7 @@ Detta är de viktigaste reglerna. Brott mot dem ska åtgärdas innan publicering
 ## Leverans
 
 - HTML-fil lokalt
+- favicon.svg
 - 16:9 PDF (1600x900) som backup
 - Live URL på github.io
 - Förslag på kort mejl till kunden med länken
